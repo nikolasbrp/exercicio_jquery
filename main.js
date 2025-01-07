@@ -10,7 +10,7 @@ $(document).ready(function() {
         $('#nome-tarefa').val(''); 
     });
 
-    $('ul').on('click', 'li', function() {
+    $('main ul').on('click', 'li', function() {
         $(this).toggleClass('texto-riscado');
     });
 });

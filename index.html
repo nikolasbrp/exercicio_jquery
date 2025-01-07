@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&amp;family=Roboto:wght@400;500&amp;display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./main.css">
+    <title>Lista de Tarefas</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1><a href="https://github.com/nikolasbrp" target="_blank" aria-label="Link para o GitHub"
+                    title="Link para o GitHub"><span class="logo-color">&lt;</span>n<span
+                        class="logo-color">&gt;</span></a></h1>
+            <nav>
+                <ul>
+                    <li><a href="#form-tarefas">Pratique JS</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container-form">
+            <h2>Lista de tarefas:</h2>
+            <form id="form-tarefas">
+                <input type="text" id="nome-tarefa" placeholder="Nome da tarefa" required />
+                <button type="submit" id="btn-add-tarefa">Adicionar +</button>
+            </form>
+            <ul id="lista-tarefas">
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>© Níkolas Bánkuti - Todos os direitos reservados - 2024</p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
